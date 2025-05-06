@@ -67,7 +67,7 @@ This will insert sample users, payment records, credit usage data, credit histor
 Launch the FastAPI server:
 
 ```bash
-uvicorn app.main:app --reload
+python -m uvicorn main:app --reload 
 ```
 
 Access the API at:
@@ -78,7 +78,7 @@ Access the API at:
 Launch the Streamlit app for a user-friendly interface:
 
 ```bash
-streamlit run app/streamlit_app.py
+python -m streamlit run streamlit_app.py 
 ```
 
 The app will open in your browser at:
